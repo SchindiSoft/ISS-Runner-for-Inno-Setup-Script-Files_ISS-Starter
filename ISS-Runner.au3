@@ -1,10 +1,5 @@
-#NoTrayIcon
-#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_UseUpx=n
-#AutoIt3Wrapper_Run_After="%scitedir%\..\Extras\AutoUPX.exe" %out%
-#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
-#include <Array.au3>
 
+#include <Array.au3>
 #include <String.au3>
 
 ; Pfade zu den Compilern (Bitte an Ihre tatsächlichen Pfade anpassen!)
@@ -61,6 +56,7 @@ Exit
 
 
 Else
+	;obsolet i added a GUI...
     ; 2. Fallback: Wenn kein #define gefunden wurde, Standardwert nutzen
   ;  $chosenCompiler = $inno6Path
   ;  ConsoleWrite("-> Keine Direktive gefunden. Verwende Standard-Compiler (Inno Setup 6)." & @CRLF)
