@@ -20,13 +20,8 @@ Global $issDatei = $CmdLine[1]
 ; Wir lesen die Datei ein und prüfen, ob ein bestimmtes Merkmal existiert
 Global $fileContent = FileRead($issDatei)
 
-MsgBox (16,"", $fileContent)
-
 ; 1. Nach der spezifischen #define-Direktive suchen
 Local $versionMatch = _StringBetween($fileContent, '#define PreferredVersion "', '"')
-
-
-MsgBox (16,"", $versionMatch[0])
 
 
 If IsArray($versionMatch) Then
