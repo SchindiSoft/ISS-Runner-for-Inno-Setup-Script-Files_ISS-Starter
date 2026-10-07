@@ -1,3 +1,11 @@
+#NoTrayIcon
+#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+#AutoIt3Wrapper_UseUpx=n
+#AutoIt3Wrapper_Run_After="%scitedir%\..\Extras\AutoUPX.exe" %out%
+#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
+#include <Array.au3>
+
+
 
 #include <Array.au3>
 #include <String.au3>
@@ -19,6 +27,11 @@ Global $issDatei = $CmdLine[1]
 ; --- AUTOMATISCHE ERKENNUNG (Optional) ---
 ; Wir lesen die Datei ein und prüfen, ob ein bestimmtes Merkmal existiert
 Global $fileContent = FileRead($issDatei)
+
+
+
+If Not StringInStr(StringReplace($fileContent," ", ""), ';#definePreferredVersion"') Then  ;damit auch das auskommentieren möglich wird
+
 
 ; 1. Nach der spezifischen #define-Direktive suchen
 Local $versionMatch = _StringBetween($fileContent, '#define PreferredVersion "', '"')
@@ -57,6 +70,8 @@ Else
   ;  ConsoleWrite("-> Keine Direktive gefunden. Verwende Standard-Compiler (Inno Setup 6)." & @CRLF)
 EndIf
 
+Else
+EndIf
 
 
 #include <FontConstants.au3>
