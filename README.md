@@ -1,5 +1,6 @@
 # ISS-Runner-Starter-fuer-InnoSetup-Files
 Seit der neuen InnnoSetup 7 habe ich ja mehrere Versionen (7 = neue x64 = 64 Bit Version und ältere 5 u. 6 sind x86 =32Bit Versionen) auf der Festplatte...
+
 Mein Tool erlaubt nun eine einfache Auswahl des Compilers beim Öffnen einer ISS-Datei.
 
 1. Vorbereitung in der Inno Setup Datei (.iss)
@@ -21,6 +22,7 @@ AppVersion=1.0
 .
 
 Die ISS-Runner.au3 Datei mit (einem natürlich vorher installiertem) Autoit3 kompilieren...
+
 Kompilierte ISS-Runner.exe z.B.: ins neue "C:\Program Files\Inno Setup 7" kopieren
 
 1. Machen Sie im Windows Explorer einen Rechtsklick auf eine beliebige .iss-Datei.
