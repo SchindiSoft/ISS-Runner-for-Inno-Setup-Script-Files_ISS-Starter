@@ -22,8 +22,9 @@ AppVersion=1.0
 .
 
 Die ISS-Runner.au3 Datei mit (einem natürlich vorher installiertem) Autoit3 kompilieren...
+Eine von mir erstellte und mit UPX komprimierte, und von mir selbstsignierte EXE Datei, ist auch im Anhang...
 
-Kompilierte ISS-Runner.exe z.B.: ins neue "C:\Program Files\Inno Setup 7" kopieren
+Kompilierte ISS-Runner.exe z.B.: ins neue "C:\Program Files\Inno Setup 7" kopieren...
 
 1. Machen Sie im Windows Explorer einen Rechtsklick auf eine beliebige .iss-Datei.
 2. Wählen Sie Öffnen mit -> Andere App auswählen.
