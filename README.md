@@ -1,7 +1,5 @@
-# ISS-Runner-Starter-f-r-InnoSetup-Files
+# ISS-Runner-Starter-fuer-InnoSetup-Files
 Seit der neuen InnnoSetup Version 7 x64 hab ich mehrere Versionen auf der Festplatte - dieses Tool erlaubt eine Auswahl des Compilers...
-echo "# ISS-Runner-Starter-f-r-InnoSetup-Files" >> README.md
-
 
 1. Vorbereitung in der Inno Setup Datei (.iss)
 
