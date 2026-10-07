@@ -14,13 +14,18 @@ AppName=Mein Programm
 AppVersion=1.0
 ...
 
-#NoTrayIcon
-#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_UseUpx=n
-#AutoIt3Wrapper_Run_After="%scitedir%\..\Extras\AutoUPX.exe" %out%
-#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
-#include <Array.au3>
+Kompilierte ISS-Runner.exe z.B.: ins neue "C:\Program Files\Inno Setup 7" kopieren
 
+1. Machen Sie im Windows Explorer einen Rechtsklick auf eine beliebige .iss-Datei.
+2. Wählen Sie Öffnen mit -> Andere App auswählen.
+3. Aktivieren Sie unbedingt das Häkchen bei „Immer diese App zum Öffnen von .iss-Dateien verwenden“.
+4. Scrollen Sie ganz nach unten und klicken Sie auf „Andere App auf diesem PC suchen“.
+5. Wählen Sie im Dateibrowser Ihre ISS-Runner.exe aus
+
+
+Code:
+
+#include <Array.au3>
 #include <String.au3>
 
 ; Pfade zu den Compilern (Bitte an Ihre tatsächlichen Pfade anpassen!)
