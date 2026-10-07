@@ -1,12 +1,3 @@
-#NoTrayIcon
-#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_UseUpx=n
-#AutoIt3Wrapper_Run_After="%scitedir%\..\Extras\AutoUPX.exe" %out%
-#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
-#include <Array.au3>
-
-
-
 #include <Array.au3>
 #include <String.au3>
 
