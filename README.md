@@ -10,5 +10,6 @@ pascal
 
 [Setup]
 AppName=Mein Programm
+
 AppVersion=1.0
 ...
