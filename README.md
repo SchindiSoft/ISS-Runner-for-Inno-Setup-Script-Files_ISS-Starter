@@ -15,6 +15,9 @@ AppName=Mein Programm
 AppVersion=1.0
 ...
 
+
+
+ISS-Runner.au3 mit (einem natürlich vorher installiertem) Autoit3 kompilieren...
 Kompilierte ISS-Runner.exe z.B.: ins neue "C:\Program Files\Inno Setup 7" kopieren
 
 1. Machen Sie im Windows Explorer einen Rechtsklick auf eine beliebige .iss-Datei.
