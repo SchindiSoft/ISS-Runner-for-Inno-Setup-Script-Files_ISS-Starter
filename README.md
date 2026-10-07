@@ -4,6 +4,7 @@ Seit der neuen InnnoSetup Version 7 x64 hab ich mehrere Versionen auf der Festpl
 1. Vorbereitung in der Inno Setup Datei (.iss)
 
 Fügen Sie ganz oben in Ihren .iss-Dateien eine eindeutige Zeile hinzu, die die bevorzugte Version definiert:
+
 ; --- Compiler Konfiguration ---
 #define PreferredVersion "6"
 
