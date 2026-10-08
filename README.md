@@ -28,11 +28,11 @@ Kompilierte ISS-Runner.exe z.B.: ins neue "C:\Program Files\Inno Setup 7" Verzei
 
 3. ISS Datei mit ISS-Runner.exe verknüpfen:
 
-1. Machen Sie im Windows Explorer einen Rechtsklick auf eine beliebige .iss-Datei.
-2. Wählen Sie Öffnen mit -> Andere App auswählen.
-3. Aktivieren Sie unbedingt das Häkchen bei „Immer diese App zum Öffnen von .iss-Dateien verwenden“.
-4. Scrollen Sie ganz nach unten und klicken Sie auf „Andere App auf diesem PC suchen“.
-5. Wählen Sie im Dateibrowser Ihre ISS-Runner.exe aus
+3.1. Machen Sie im Windows Explorer einen Rechtsklick auf eine beliebige .iss-Datei.
+3.2. Wählen Sie Öffnen mit -> Andere App auswählen.
+3.3. Aktivieren Sie unbedingt das Häkchen bei „Immer diese App zum Öffnen von .iss-Dateien verwenden“.
+3.4. Scrollen Sie ganz nach unten und klicken Sie auf „Andere App auf diesem PC suchen“.
+3.5. Wählen Sie im Dateibrowser Ihre ISS-Runner.exe aus
 
 Hinweis:
 Falls die Version vom Programm nicht ermittelt werden kann, so wird ein Fenster mit den entsprechenden Schaltflächen geöffnet,
