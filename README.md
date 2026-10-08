@@ -1,4 +1,4 @@
-# ISS-Runner-Starter-fuer-InnoSetup-Files
+# ISS-Runner (Starter) for InnoSetup-Files
 Seit dem neuen Inno Setup 7 habe ich ja mehrere Versionen (7 = neue x64 = 64 Bit Version und ältere 5 u. 6 sind x86 = 32 Bit Versionen) auf der Festplatte...
 
 Mein Tool erlaubt nun eine einfache Auswahl des Compilers beim Öffnen einer ISS-Datei.
