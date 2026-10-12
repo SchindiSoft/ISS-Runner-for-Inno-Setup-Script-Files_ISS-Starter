@@ -1,3 +1,12 @@
+#NoTrayIcon
+#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+#AutoIt3Wrapper_UseUpx=n
+#AutoIt3Wrapper_Run_After=""%scitedir%\..\Extras\AutoUPX.exe" "%out%""
+#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
+#include <Array.au3>
+
+
+
 #include <Array.au3>
 #include <String.au3>
 
@@ -26,7 +35,7 @@ If Not StringInStr(StringReplace($fileContent," ", ""), ';#definePreferredVersio
 
 ; 1. Nach der spezifischen #define-Direktive suchen
 Local $versionMatch = _StringBetween($fileContent, '#define PreferredVersion "', '"')
-
+Local $chosenCompiler
 
 If IsArray($versionMatch) Then
     Local $preferred = $versionMatch[0]
@@ -42,6 +51,8 @@ If IsArray($versionMatch) Then
             $chosenCompiler = $INNO_V7
 		Case Else
            ; $chosenCompiler = $inno6Path ; Standard-Fallback, falls eine unbekannte Zahl eingetragen wurde
+		   MsgBox(16, "Fehler", "Die angegebene Inno Setup Compiler Version wird (noch) nicht unterstützt!")
+		   Exit
 	EndSelect
 
 ; 3. Compiler ausführen
